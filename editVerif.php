@@ -8,7 +8,6 @@ $email = htmlspecialchars($_POST['newEmail']);
 $mdp = htmlspecialchars($_POST['newPassword']);
 $rmdp = htmlspecialchars($_POST['newRpassword']);
 
-
 $connection = connectionDB();
 $req = $connection->prepare('SELECT COUNT(*) Pseudo FROM utilisateur WHERE pseudo=?');
 $req->execute(array($pseudo));
