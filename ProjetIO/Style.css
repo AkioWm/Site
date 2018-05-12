@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+a{
+  text-decoration:none;
+  color: white;
+  padding-left: 10px;
+  font-family: Roboto;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+html{
+
+  background-image:url("Image/Matt.jpg");
+}
+
+header{
+  text-align: right;
+  font-family: Roboto;
+  font-size: 30px;
+  color: white;
+  background-color: #737373;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.white{
+  color: white;
+}
+.droite{
+  margin-left: 90%;
+}
+
+.noLineBreak{
+  display: inline-block;
+}
+
+.inscription{
+  text-align: center;
+  font-family: Roboto;
+  display: block;
+  background-color: #737373;
+  color: white;
+  height: 40%;
+  border-color: black;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.inscriptionVerif{
+  text-align: center;
+  font-family: Roboto;
+  display: block;
+  color: white;
+  background-color: #737373;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.connexion{
+  text-align: center;
+  font-family: Roboto;
+  display: block;
+  color: white;
+  background-color: #737373;
+  height: 40%;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.connexionVerif{
+  text-align: center;
+  font-family: Roboto;
+  display: block;
+  color: white;
+  background-color: #737373;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.editProfile{
+  text-align: center;
+  font-family: Roboto;
+  display: block;
+  color: white;
+  background-color: #737373;
+  height: 40%;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.center{
+  text-align: center;
+}
+
+.red{
+  color: red;
+}
+
+.left{
+  text-align: left;
+}
+
+.profil{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  background-color: #737373;
+  width: 900px;
+  height: 40%;
+   margin: 5% auto;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.presentation{
+  margin-top: 5%;
+  color: white;
+  background-color: #737373;
+  length: 40%;
+  font-size: 20px;
+  text-align: center;
+  font-family: Roboto;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+
+
+}
+
+@-webkit-keyframes defile{
+  from {background-position: 0px 0px;}
+  to {background-position: 0px 19200px;}
+
+}
+
+
+ #backgroundAnimation {
+  animation-name: defile;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}

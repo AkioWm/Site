@@ -1,0 +1,6 @@
+27/03/2018
+
+Creation page principales+formulaire;
+Creation input etc.
+
+Future chose a faire: Faire une page de connexion avec lien pour acceder a la page membre.
